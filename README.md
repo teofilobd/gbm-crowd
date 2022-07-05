@@ -2,7 +2,7 @@
 
 ## DISCLAIMER
 
-- This is implementation is very naive and not production-ready (not even close).
+- This implementation is very naive and not production-ready (not even close).
 - Results from this implementation are different from those seen in the papers because some details are different, such as obstacles are seen as cylinders instead of cones (like in the original papers).
 - I plan to keep working on this and eventually make improvements in the future, but I can't promise anything.
 
@@ -14,7 +14,7 @@ This repository contains the implementation of two approaches for steering crowd
 
 ### Concept
 
-In algorithms for steering agents based on synthetic vision, agents make decisions based on what they actually see in the virtual world. In other words, at every simulation step it's necessary to render what every agent sees and process the rendered images to determine the action to take before the next step.
+In algorithms for steering agents based on synthetic vision, agents make decisions based on what they actually see in the virtual world. In other words, at every simulation step it's necessary to render what every agent sees and to process the rendered images to determine the action to take before the next step.
 
 ## Dependencies
 
@@ -34,8 +34,8 @@ There are six scenarios available: Circle, Columns, Corridor, Crossing, Crossing
 
 All settings can be found in the folder `Settings`. 
 - Agents Settings (e.g individual model parameters, comfort speed, etc.) can be found under `Agents` folder.
-- Scenarios Settings (e.g. number of agents, etc.) under `Scenarios` folder.
-- Simulators Settings (e.g. camera configuration, shader, etc.) under `Simulators` folder.
+- Scenarios Settings (e.g. number of agents, etc.) can be found under `Scenarios` folder.
+- Simulators Settings (e.g. camera configuration, shader, etc.) can be found under `Simulators` folder.
 
 ## License
 
